@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>David Akpan | Full-Stack Developer &amp; Digital Architect</title>
+<meta name="description" content="David Akpan — Full-Stack Developer, SEO Expert &amp; Digital Architect building powerful digital experiences from Uyo, Akwa Ibom."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="pre-inner">
+    <div class="pre-logo-svg">
+      <svg width="72" height="72" viewBox="0 0 72 72" fill="none"><rect width="72" height="72" rx="18" fill="#C0392B"/><text x="36" y="42" text-anchor="middle" fill="#fff" font-family="'Cormorant Garamond',serif" font-weight="700" font-size="30" letter-spacing="-1">DA</text></svg>
+    </div>
+    <div class="pre-ring-wrap"><div class="pre-ring"></div></div>
+    <div class="pre-lines">
+      <p class="pre-line active" id="pl1">David Akpan — Full-Stack Developer</p>
+      <p class="pre-line" id="pl2">Building platforms that generate real revenue</p>
+      <p class="pre-line" id="pl3">5+ years turning ideas into digital products</p>
+      <p class="pre-line" id="pl4">SEO strategist · App builder · Brand architect</p>
+      <p class="pre-line" id="pl5">Based in Uyo · Working with the world</p>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner container">
+    <a href="#" class="site-logo">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="9" fill="#C0392B"/><text x="20" y="25" text-anchor="middle" fill="#fff" font-family="'Cormorant Garamond',serif" font-weight="700" font-size="18" letter-spacing="-0.5">DA</text></svg>
+      <div class="logo-text"><span class="ln">David Akpan</span><span class="ls">Dev &amp; Architect</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get In Touch</a>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mob-menu" id="mobMenu">
+    <ul>
+      <li><a href="#about" class="ml">About</a></li>
+      <li><a href="#projects" class="ml">Projects</a></li>
+      <li><a href="#skills" class="ml">Skills</a></li>
+      <li><a href="#reviews" class="ml">Reviews</a></li>
+      <li><a href="#faq" class="ml">FAQ</a></li>
+      <li><a href="#contact" class="ml">Contact</a></li>
+      <li><a href="#contact" class="ml ml-cta">Get In Touch</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-slider">
+    <div class="slide sl1 active"></div>
+    <div class="slide sl2"></div>
+    <div class="slide sl3"></div>
+  </div>
+  <div class="hero-ov"></div>
+  <div class="hero-content container">
+    <div class="h-eyebrow" id="hTag"><span class="h-eline"></span><span id="hTagTxt">Full-Stack Developer &amp; Digital Architect</span></div>
+    <h1 class="h-title" id="hTitle">
+      <span class="htl" id="hL1">Crafting Digital</span>
+      <span class="htl htl-ac" id="hL2">Excellence</span>
+      <span class="htl" id="hL3">For Ambitious Brands.</span>
+    </h1>
+    <p class="h-sub" id="hSub">I architect high-performance web platforms, conversion-driven applications, and search-optimised ecosystems that transform businesses into market leaders.</p>
+    <div class="h-actions">
+      <a href="#projects" class="btn-p">Explore My Work</a>
+      <a href="#contact" class="btn-g">Start a Project</a>
+    </div>
+    <div class="h-metrics">
+      <div class="hm"><span class="hm-n">50+</span><span class="hm-l">Projects</span></div>
+      <div class="hm-sep"></div>
+      <div class="hm"><span class="hm-n">30+</span><span class="hm-l">Brands</span></div>
+      <div class="hm-sep"></div>
+      <div class="hm"><span class="hm-n">5+</span><span class="hm-l">Years</span></div>
+    </div>
+  </div>
+  <div class="h-ui">
+    <div class="h-dots">
+      <span class="dot active" data-s="0"></span>
+      <span class="dot" data-s="1"></span>
+      <span class="dot" data-s="2"></span>
+    </div>
+    <div class="h-counter"><span id="slideNum">01</span><span class="hc-sep">/</span><span>03</span></div>
+  </div>
+  <div class="scroll-cue"><div class="sc-bar"></div><span>Scroll</span></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container ab-grid">
+    <div class="ab-img-col fade-left">
+      <div class="ab-frame">
+        <img src="images/about.jpeg" alt="David Akpan"/>
+        <div class="ab-float">Full-Stack Dev</div>
+      </div>
+      <div class="ab-nums">
+        <div class="an"><span class="an-n">50+</span><span class="an-l">Projects</span></div>
+        <div class="an"><span class="an-n">30+</span><span class="an-l">Clients</span></div>
+        <div class="an"><span class="an-n">5+</span><span class="an-l">Years</span></div>
+      </div>
+    </div>
+    <div class="ab-txt-col fade-right">
+      <span class="s-tag">About Me</span>
+      <h2 class="s-title">The Developer Behind<br/><em>Powerful Brands</em></h2>
+      <p class="ab-lead">I am David Akpan — a full-stack developer, SEO strategist, and digital architect who transforms brand visions into high-performing digital realities.</p>
+      <p class="ab-body">Businesses don't just need websites. They need ecosystems — intelligent, scalable, and search-optimised platforms that generate leads, retain users, and convert at scale. From pixel-perfect frontends to robust backend systems and surgical SEO strategies, I architect solutions that make brands impossible to ignore.</p>
+      <p class="ab-body">Over 5+ years, I've helped startups, agencies, and established enterprises dominate their niches through technology that works as hard as they do. My code is clean, my designs are purposeful, and my results are measurable.</p>
+      <div class="ab-cta-row">
+        <a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20want%20to%20work%20with%20you." target="_blank" class="btn-p">Work With Me</a>
+        <a href="#projects" class="btn-txt">View Projects &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS TICKER — names only -->
+<div id="partners">
+  <span class="tk-lbl">Trusted by</span>
+  <div class="tk-outer">
+    <div class="tk-track">
+      <span class="tk-n">MitaSchool</span><span class="tk-d">·</span>
+      <span class="tk-n">Neework Uyo</span><span class="tk-d">·</span>
+      <span class="tk-n">Devhieve Tech</span><span class="tk-d">·</span>
+      <span class="tk-n">MitaSchool</span><span class="tk-d">·</span>
+      <span class="tk-n">Neework Uyo</span><span class="tk-d">·</span>
+      <span class="tk-n">Devhieve Tech</span><span class="tk-d">·</span>
+      <span class="tk-n">MitaSchool</span><span class="tk-d">·</span>
+      <span class="tk-n">Neework Uyo</span><span class="tk-d">·</span>
+      <span class="tk-n">Devhieve Tech</span><span class="tk-d">·</span>
+      <span class="tk-n">MitaSchool</span><span class="tk-d">·</span>
+      <span class="tk-n">Neework Uyo</span><span class="tk-d">·</span>
+      <span class="tk-n">Devhieve Tech</span><span class="tk-d">·</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="s-head">
+      <span class="s-tag fade-up">Portfolio</span>
+      <h2 class="s-title fade-up">Projects That <em>Speak</em></h2>
+      <p class="s-sub fade-up">Each project is a story of a problem solved, a brand elevated, and a vision made real.</p>
+    </div>
+    <div class="pj-grid" id="pjGrid">
+      <div class="pj-card fade-up">
+        <div class="pj-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85" alt="EasyDump"/><div class="pj-ov"><a href="https://www.easydump.org" target="_blank" class="pj-vbtn">Visit Site &rarr;</a></div></div>
+        <div class="pj-body"><span class="pj-cat">Web Platform</span><h3>EasyDump</h3><p>A powerful waste management and logistics platform streamlining waste collection, scheduling, and tracking for businesses and households — built with clean UX and robust backend infrastructure.</p><a href="https://www.easydump.org" target="_blank" class="pj-link">easydump.org &rarr;</a></div>
+      </div>
+      <div class="pj-card fade-up">
+        <div class="pj-img"><img src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?w=800&q=85" alt="QRCraft"/><div class="pj-ov"><a href="https://www.qrcraft.site" target="_blank" class="pj-vbtn">Visit Site &rarr;</a></div></div>
+        <div class="pj-body"><span class="pj-cat">SaaS Tool</span><h3>QRCraft</h3><p>An intelligent QR code generation SaaS platform enabling businesses to create, customise, and track dynamic QR codes for marketing, product labels, and digital engagement.</p><a href="https://www.qrcraft.site" target="_blank" class="pj-link">qrcraft.site &rarr;</a></div>
+      </div>
+    </div>
+    <div class="vm-wrap" id="vmWrap"><button class="btn-outline" id="vmBtn">View More Projects</button></div>
+    <div class="pj-loading hidden" id="pjLoad"><div class="ld-spin"></div><p>Loading more projects — please wait...</p></div>
+    <div class="pj-grid hidden" id="pjExtra">
+      <div class="pj-card fade-up"><div class="pj-img"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=85" alt="Analytics"/><div class="pj-ov"><span class="pj-vbtn">Coming Soon</span></div></div><div class="pj-body"><span class="pj-cat">Dashboard</span><h3>Brand Analytics Hub</h3><p>Real-time analytics and brand monitoring for digital agencies — aggregating SEO, social, and ad performance into one command centre.</p></div></div>
+      <div class="pj-card fade-up"><div class="pj-img"><img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85" alt="App"/><div class="pj-ov"><span class="pj-vbtn">Coming Soon</span></div></div><div class="pj-body"><span class="pj-cat">Mobile App</span><h3>ConnectLocal App</h3><p>A community-first mobile application connecting local service providers with customers across Akwa Ibom — built with React Native for seamless cross-platform experiences.</p></div></div>
+    </div>
+    <div class="s-cta fade-up"><p>Have a project in mind?</p><a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20have%20a%20project." target="_blank" class="btn-p">Let's Build Together</a></div>
+  </div>
+</section>
+
+<!-- SKILLS — animated pop -->
+<section id="skills">
+  <div class="container">
+    <div class="s-head">
+      <span class="s-tag fade-up">Tech Arsenal</span>
+      <h2 class="s-title fade-up">Languages &amp; <em>Technologies</em></h2>
+      <p class="s-sub fade-up">Hover any skill — watch it come alive. Every tool chosen with purpose.</p>
+    </div>
+    <div class="sk-block fade-up">
+      <div class="sk-label">Frontend Development</div>
+      <div class="sk-row">
+        <div class="sk-chip"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+        <div class="sk-chip"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+        <div class="sk-chip"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+        <div class="sk-chip"><i class="devicon-react-original colored"></i><span>React</span></div>
+        <div class="sk-chip"><i class="devicon-vuejs-plain colored"></i><span>Vue.js</span></div>
+        <div class="sk-chip"><i class="devicon-tailwindcss-original colored"></i><span>Tailwind</span></div>
+        <div class="sk-chip"><i class="devicon-sass-original colored"></i><span>SASS</span></div>
+        <div class="sk-chip"><i class="devicon-nextjs-plain"></i><span>Next.js</span></div>
+      </div>
+    </div>
+    <div class="sk-block fade-up">
+      <div class="sk-label">Backend Development</div>
+      <div class="sk-row">
+        <div class="sk-chip"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+        <div class="sk-chip"><i class="devicon-express-original"></i><span>Express</span></div>
+        <div class="sk-chip"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+        <div class="sk-chip"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+        <div class="sk-chip"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+        <div class="sk-chip"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+        <div class="sk-chip"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div>
+        <div class="sk-chip"><i class="devicon-django-plain colored"></i><span>Django</span></div>
+      </div>
+    </div>
+    <div class="sk-block fade-up">
+      <div class="sk-label">SEO &amp; Digital Strategy</div>
+      <div class="sk-row">
+        <div class="sk-chip"><div class="sd sg">SEO</div><span>On-Page SEO</span></div>
+        <div class="sk-chip"><div class="sd sb">SCH</div><span>Schema</span></div>
+        <div class="sk-chip"><div class="sd so">GA4</div><span>Analytics</span></div>
+        <div class="sk-chip"><div class="sd sr">GSC</div><span>Search Console</span></div>
+        <div class="sk-chip"><div class="sd sp">SEM</div><span>SEM Strategy</span></div>
+        <div class="sk-chip"><div class="sd st">CWV</div><span>Core Web Vitals</span></div>
+        <div class="sk-chip"><i class="devicon-wordpress-plain colored"></i><span>WP SEO</span></div>
+      </div>
+    </div>
+    <div class="sk-block fade-up">
+      <div class="sk-label">Mobile App Development</div>
+      <div class="sk-row">
+        <div class="sk-chip"><i class="devicon-react-original colored"></i><span>React Native</span></div>
+        <div class="sk-chip"><i class="devicon-flutter-plain colored"></i><span>Flutter</span></div>
+        <div class="sk-chip"><i class="devicon-dart-plain colored"></i><span>Dart</span></div>
+        <div class="sk-chip"><i class="devicon-android-plain colored"></i><span>Android</span></div>
+        <div class="sk-chip"><i class="devicon-apple-original"></i><span>iOS</span></div>
+      </div>
+    </div>
+    <div class="sk-block fade-up">
+      <div class="sk-label">Game Development</div>
+      <div class="sk-row">
+        <div class="sk-chip"><i class="devicon-unity-original"></i><span>Unity</span></div>
+        <div class="sk-chip"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+        <div class="sk-chip"><i class="devicon-csharp-plain colored"></i><span>C#</span></div>
+        <div class="sk-chip"><i class="devicon-threejs-original"></i><span>Three.js</span></div>
+        <div class="sk-chip"><div class="sd sg">GDT</div><span>Godot</span></div>
+      </div>
+    </div>
+    <div class="s-cta fade-up"><p>Need the right technology for your project?</p><a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20need%20tech%20advice." target="_blank" class="btn-p">Get Free Consultation</a></div>
+  </div>
+</section>
+
+<!-- WHATSAPP — with decorative background -->
+<section id="wa-sec">
+  <div class="wa-bg">
+    <div class="wab-circle c1"></div>
+    <div class="wab-circle c2"></div>
+    <div class="wab-circle c3"></div>
+    <div class="wab-grid"></div>
+  </div>
+  <div class="container wa-grid">
+    <div class="wa-left fade-left">
+      <span class="s-tag s-tag-inv">Direct Line</span>
+      <h2 class="s-title s-title-inv">Send Me a Message<br/><em>Right Now</em></h2>
+      <p class="wa-desc">No forms. No waiting. No back-and-forth emails. Send me a WhatsApp message and let's have a real conversation about your project. I respond fast.</p>
+      <ul class="wa-perks">
+        <li><span>✓</span>Fast response — usually within hours</li>
+        <li><span>✓</span>Free initial consultation</li>
+        <li><span>✓</span>No commitment required</li>
+      </ul>
+    </div>
+    <div class="wa-right fade-right">
+      <div class="wa-card">
+        <div class="wa-card-hd">
+          <div class="wa-av"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#25D366"/><path d="M23.5 8.5C21.7 6.7 19.4 5.7 17 5.7c-4.9 0-9 4-9 9 0 1.6.4 3.1 1.2 4.5L8 26.3l7.3-1.9c1.3.7 2.8 1.1 4.3 1.1h.1c4.9 0 9-4 9-9-.1-2.4-1.1-4.7-2.9-6.3l.7.3zM17 24.1c-1.3 0-2.6-.4-3.7-1l-.3-.2-2.9.8.8-2.8-.2-.3c-.7-1.1-1.1-2.4-1.1-3.7 0-3.9 3.2-7.1 7.1-7.1 1.9 0 3.7.7 5 2.1 1.3 1.3 2.1 3.1 2.1 5 .1 3.9-3.1 7.2-6.8 7.2zm3.9-5.3c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.4.1-.1.2-.5.7-.6.8-.1.1-.2.2-.4.1-.2-.1-.9-.3-1.7-1.1-.6-.6-1.1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.3-.3c.1-.1.2-.2.2-.4 0-.1.1-.3 0-.4 0-.1-.4-1-.5-1.4-.1-.3-.3-.3-.4-.3H14c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.1 1.5 2.3 3.7 3.2 2.1.9 2.1.6 2.5.6.4 0 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.1-.4-.2z" fill="#fff"/></svg></div>
+          <div><p class="wa-nm">David Akpan</p><p class="wa-st"><span class="wa-dot"></span>Online — replies fast</p></div>
+        </div>
+        <div class="wa-chat"><div class="wa-bubble">Hi! I'm David. Tell me about your project and let's build something great together.</div></div>
+        <div class="wa-compose">
+          <textarea id="waMsg" placeholder="Type your message..." rows="3"></textarea>
+          <button id="waSend" class="wa-send-btn"><svg viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13" stroke="#fff" stroke-width="2" stroke-linecap="round"/><path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Send on WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="container">
+    <div class="s-head"><span class="s-tag fade-up">Social Proof</span><h2 class="s-title fade-up">What Clients <em>Say</em></h2><p class="s-sub fade-up">Real feedback from people who trusted me with their brands.</p></div>
+    <div class="rv-wrap"><div class="rv-track" id="rvTrack">
+      <div class="rv-card"><div class="rv-top"><div class="rv-av" style="background:#4285F4">CO</div><div><p class="rv-nm">Chidera Okonkwo</p><p class="rv-rl">CEO, Verdant Logistics</p></div><svg class="rv-g" viewBox="0 0 24 24" width="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div><div class="rv-stars">★★★★★</div><p class="rv-txt">"David rebuilt our logistics platform from the ground up. Load times dropped 70% and bookings jumped 3x in the first month. He doesn't just write code — he thinks like a business owner."</p><p class="rv-dt">2 months ago</p></div>
+      <div class="rv-card"><div class="rv-top"><div class="rv-av" style="background:#34A853">AB</div><div><p class="rv-nm">Amaka Blessing</p><p class="rv-rl">Founder, StyleHive Africa</p></div><svg class="rv-g" viewBox="0 0 24 24" width="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div><div class="rv-stars">★★★★★</div><p class="rv-txt">"He built our e-commerce store with SEO baked in from day one. We went from zero to page 1 on Google within 3 months. I wish I'd found him sooner!"</p><p class="rv-dt">3 months ago</p></div>
+      <div class="rv-card"><div class="rv-top"><div class="rv-av" style="background:#FBBC05;color:#222">TE</div><div><p class="rv-nm">Tunde Emmanuel</p><p class="rv-rl">CTO, PaySwitch Nigeria</p></div><svg class="rv-g" viewBox="0 0 24 24" width="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div><div class="rv-stars">★★★★★</div><p class="rv-txt">"David built our fintech API infrastructure with security and scalability as a priority. Months after launch — zero critical incidents. Clean code, thorough docs, excellent communication."</p><p class="rv-dt">5 months ago</p></div>
+      <div class="rv-card"><div class="rv-top"><div class="rv-av" style="background:#EA4335">FO</div><div><p class="rv-nm">Funmilayo Ojo</p><p class="rv-rl">Director, EduPath Academy</p></div><svg class="rv-g" viewBox="0 0 24 24" width="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div><div class="rv-stars">★★★★★</div><p class="rv-txt">"Student enrollment increased 200% in 60 days thanks to David's SEO-first design. A rare breed — developer and strategist in one. Our best investment this year."</p><p class="rv-dt">1 month ago</p></div>
+      <div class="rv-card"><div class="rv-top"><div class="rv-av" style="background:#7c3aed">MU</div><div><p class="rv-nm">Michael Udoh</p><p class="rv-rl">Founder, TechBridge Uyo</p></div><svg class="rv-g" viewBox="0 0 24 24" width="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div><div class="rv-stars">★★★★★</div><p class="rv-txt">"David delivered a polished, production-ready MVP in record time. Code quality was impeccable and every feature worked perfectly. If you need a serious developer, look no further."</p><p class="rv-dt">3 weeks ago</p></div>
+    </div></div>
+    <div class="rv-ctrl"><button class="rv-btn" id="rvPrev">&#8592;</button><div class="rv-dots" id="rvDots"></div><button class="rv-btn" id="rvNext">&#8594;</button></div>
+    <div class="s-cta fade-up"><p>Ready to become the next success story?</p><a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20want%20to%20start%20a%20project." target="_blank" class="btn-p">Start Your Project Today</a></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="s-head"><span class="s-tag fade-up">FAQ</span><h2 class="s-title fade-up">Questions <em>Answered</em></h2><p class="s-sub fade-up">Everything you need to know before we work together.</p></div>
+    <div class="faq-list">
+      <div class="faq-item fade-up"><button class="faq-q">What types of projects do you take on?<span class="fiq">+</span></button><div class="faq-a"><p>I handle full-stack web development, mobile app development, SEO strategy, e-commerce builds, SaaS platforms, dashboards, and game development. If it involves code and a screen, I can likely help.</p></div></div>
+      <div class="faq-item fade-up"><button class="faq-q">How long does a typical project take?<span class="fiq">+</span></button><div class="faq-a"><p>A landing page takes 3–5 days. A full application or e-commerce platform typically takes 4–12 weeks depending on complexity. I provide a clear timeline before we begin.</p></div></div>
+      <div class="faq-item fade-up"><button class="faq-q">Do you offer post-launch support?<span class="fiq">+</span></button><div class="faq-a"><p>Absolutely. I offer ongoing maintenance, updates, bug fixes, and performance monitoring. I don't just build and disappear — I'm a long-term partner for your digital growth.</p></div></div>
+      <div class="faq-item fade-up"><button class="faq-q">Can you improve my existing website's SEO?<span class="fiq">+</span></button><div class="faq-a"><p>Yes. I conduct full SEO audits, fix technical issues, optimise on-page elements, implement schema markup, improve Core Web Vitals, and develop content strategies that drive organic traffic.</p></div></div>
+      <div class="faq-item fade-up"><button class="faq-q">How do I get started?<span class="fiq">+</span></button><div class="faq-a"><p>Send me a WhatsApp message with your project details. We'll have a free consultation call, I'll understand your needs, and provide a proposal with a clear timeline and pricing.</p></div></div>
+      <div class="faq-item fade-up"><button class="faq-q">What is your payment structure?<span class="fiq">+</span></button><div class="faq-a"><p>50% upfront deposit and 50% on completion. For larger projects we can structure milestone-based payments. I accept bank transfers and digital payments.</p></div></div>
+    </div>
+    <div class="s-cta fade-up"><p>Still have questions?</p><a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20have%20a%20question." target="_blank" class="btn-p">Ask Me Directly</a></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container ct-grid">
+    <div class="ct-left fade-left">
+      <span class="s-tag">Contact</span>
+      <h2 class="s-title">Let's Build Something<br/><em>Extraordinary</em></h2>
+      <p class="ct-intro">Whether you have a project ready to launch or just an idea that needs shaping — reach out. I help brands build digital experiences that matter.</p>
+      <div class="ct-items">
+        <a href="mailto:davidakpan105@gmail.com" class="ct-item"><div class="ct-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><p class="ct-lbl">Email</p><p class="ct-val">davidakpan105@gmail.com</p></div></a>
+        <div class="ct-item"><div class="ct-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><p class="ct-lbl">Location</p><p class="ct-val">142 Nwhiba, Uyo, Akwa Ibom State</p></div></div>
+        <a href="tel:+2349031538922" class="ct-item"><div class="ct-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.5 16h.42l.08.92z"/></svg></div><div><p class="ct-lbl">Phone / WhatsApp</p><p class="ct-val">09031538922</p></div></a>
+      </div>
+      <a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20want%20to%20discuss%20a%20project." target="_blank" class="btn-p">Message on WhatsApp</a>
+    </div>
+    <div class="ct-right fade-right">
+      <form class="ct-form" id="ctForm" onsubmit="handleForm(event)">
+        <div class="fg"><label>Full Name</label><input type="text" id="cfN" placeholder="John Doe" required/></div>
+        <div class="fg"><label>Email Address</label><input type="email" id="cfE" placeholder="john@example.com" required/></div>
+        <div class="fg"><label>Subject</label><input type="text" id="cfS" placeholder="Project Discussion" required/></div>
+        <div class="fg"><label>Message</label><textarea id="cfM" rows="5" placeholder="Tell me about your project..." required></textarea></div>
+        <button type="submit" class="btn-p fw">Send Message</button>
+        <p class="f-note" id="fNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER — upgraded -->
+<footer id="footer">
+  <div class="ft-upper">
+    <div class="container ft-upper-in">
+      <div class="ft-brand-col">
+        <a href="#" class="site-logo ft-logo-mk">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><rect width="44" height="44" rx="10" fill="#C0392B"/><text x="22" y="27" text-anchor="middle" fill="#fff" font-family="'Cormorant Garamond',serif" font-weight="700" font-size="20" letter-spacing="-0.5">DA</text></svg>
+          <div class="logo-text"><span class="ln">David Akpan</span><span class="ls">Dev &amp; Architect</span></div>
+        </a>
+        <p class="ft-about">Full-stack developer and digital architect turning ambitious ideas into market-leading digital products. Based in Uyo, working globally.</p>
+        <div class="ft-contact-list">
+          <a href="mailto:davidakpan105@gmail.com" class="ft-cl">davidakpan105@gmail.com</a>
+          <a href="tel:+2349031538922" class="ft-cl">09031538922</a>
+          <span class="ft-cl">142 Nwhiba, Uyo, Akwa Ibom State</span>
+        </div>
+      </div>
+      <div class="ft-nav-col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#reviews">Client Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="ft-nav-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#contact">Full-Stack Development</a></li>
+          <li><a href="#contact">SEO Strategy</a></li>
+          <li><a href="#contact">Mobile App Dev</a></li>
+          <li><a href="#contact">SaaS Platforms</a></li>
+          <li><a href="#contact">UI / UX Design</a></li>
+          <li><a href="#contact">Game Development</a></li>
+        </ul>
+      </div>
+      <div class="ft-nl-col">
+        <h5>Newsletter</h5>
+        <p>Web dev insights, SEO tips &amp; brand strategy — no spam, just value.</p>
+        <div class="ft-nl">
+          <input type="email" id="nlEmail" placeholder="Your email address"/>
+          <button onclick="subNL()">Subscribe</button>
+        </div>
+        <p class="nl-msg" id="nlMsg"></p>
+        <div class="ft-socials">
+          <a href="https://wa.me/2349031538922" target="_blank" class="ft-s-btn ft-wa">WhatsApp</a>
+          <a href="mailto:davidakpan105@gmail.com" class="ft-s-btn ft-em">Email Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ft-lower">
+    <div class="container ft-lower-in">
+      <p>&copy; 2025 David Akpan. All Rights Reserved.</p>
+      <p>Built with precision &amp; passion in Uyo, Nigeria.</p>
+    </div>
+  </div>
+</footer>
+
+<button id="btt" aria-label="Back to top">&#8593;</button>
+<script src="script.js"></script>
+</body>
+</html>
