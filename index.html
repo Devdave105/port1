@@ -1,448 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>David Akpan — Full-Stack Developer & Digital Architect</title>
-<meta name="description" content="David Akpan — Full-Stack Developer building websites that grow your business. Based in Uyo, Nigeria."/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Akpan | Web Designer &amp; Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ═══ NAVBAR ═══ -->
-<header id="header">
-  <nav class="nav-pill">
-    <a href="#" class="nav-logo">DA</a>
-    <ul class="nav-links">
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-    </ul>
-    <a href="#contact" class="nav-cta">Start Your Website</a>
-    <button id="burger" class="burger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
-  <div class="mobile-menu" id="mobileMenu">
-    <ul>
-      <li><a href="#hero" class="ml">Home</a></li>
-      <li><a href="#about" class="ml">About</a></li>
-      <li><a href="#services" class="ml">Services</a></li>
-      <li><a href="#portfolio" class="ml">Portfolio</a></li>
-      <li><a href="#testimonials" class="ml">Testimonials</a></li>
-      <li><a href="#contact" class="ml ml-cta">Start Your Website</a></li>
-    </ul>
-  </div>
-</header>
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/2349031538922" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
 
-<!-- ═══ HERO ═══ -->
-<section id="hero">
-  <div class="container hero-wrap">
-    <p class="hero-tag fade-up">Full-Stack Developer &amp; Digital Architect</p>
-    <h1 class="hero-title fade-up">
-      Everything You <span class="blue">Need,</span> All in <span class="orange">One Place</span>
-    </h1>
-    <p class="hero-sub fade-up">
-      From design to launch to ongoing support — we handle every aspect of your website so you can focus on running your business.
-    </p>
-    <div class="hero-btns fade-up">
-      <a href="#services" class="btn-primary">Get Started &rarr;</a>
-      <a href="#portfolio" class="btn-ghost">View Portfolio</a>
-    </div>
-  </div>
-</section>
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
 
-<!-- ═══ SERVICES ═══ -->
-<section id="services">
-  <div class="container">
-    <p class="section-tag fade-up">What I Offer</p>
-    <h2 class="section-title fade-up">
-      Everything You <span class="blue">Need,</span> All in <span class="orange">One Place</span>
-    </h2>
-    <p class="section-sub fade-up">
-      From design to launch to ongoing support — I handle every aspect of your website so you can focus on running your business.
-    </p>
-
-    <div class="cards-grid fade-up">
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        </div>
-        <h3>Custom Website Design</h3>
-        <p>I design and launch your custom website from scratch, with unlimited revisions.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        </div>
-        <h3>Domain &amp; Hosting</h3>
-        <p>I handle domain registration and fast, secure hosting all included.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
-        </div>
-        <h3>Mobile-Optimized Design</h3>
-        <p>Your site will look great and work smoothly on all devices.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        </div>
-        <h3>SEO &amp; Performance Optimization</h3>
-        <p>I optimize your site for search engines and speed to maximize your online visibility.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.5 16h.42l.08.92z"/></svg>
-        </div>
-        <h3>Ongoing Support &amp; Maintenance</h3>
-        <p>I handle the tech stuff like backups, security, and performance so you don't have to.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-        </div>
-        <h3>Fully Done for You &amp; Hands Off</h3>
-        <p>You just tell me your vision and I handle everything else.</p>
-      </div>
-
-    </div>
-
-    <div class="section-cta fade-up">
-      <p class="cta-text">Let's build something you'll be proud to show off.</p>
-      <p class="signature">David Akpan</p>
-      <a href="#contact" class="btn-primary">Get Started &rarr;</a>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ WHY SECTION ═══ -->
-<section id="why">
-  <div class="container">
-    <h2 class="section-title-left fade-up">
-      Why Every Business Owner <span class="blue">Needs</span> Their Own Website
-    </h2>
-    <p class="section-sub-left fade-up">
-      It's not just about having a website — it's about standing out, getting more clients, and building something that lasts.
-    </p>
-
-    <div class="cards-grid fade-up">
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        </div>
-        <h3>Google Visibility</h3>
-        <p>Start showing up when people search for your services in your area. More eyes on your site means more customers discovering your business, calling you, and choosing you over competitors who don't show up online.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        </div>
-        <h3>More Customers</h3>
-        <p>New customers can find and contact you through your site — 24/7. Your website works around the clock to bring in leads, answer questions, and convert visitors into paying customers even while you sleep.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
-        <h3>Professional First Impressions</h3>
-        <p>People judge your business in seconds. A custom website makes sure you look professional, trustworthy, and established. First impressions directly impact whether someone picks up the phone or scrolls past you.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.5 16h.42l.08.92z"/></svg>
-        </div>
-        <h3>Easy Contact &amp; Inquiries</h3>
-        <p>No more lost messages in DMs or texts. Customers can reach you directly through your site with contact forms, booking systems, or direct calls. Every inquiry is captured, organized, and ready for you to close.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-        </div>
-        <h3>Elevate Your Brand</h3>
-        <p>Your own domain, your own look, your own space — not shared with competitors. Build real brand equity that increases your business value and makes you stand out in a crowded market.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-        </div>
-        <h3>Real Investment</h3>
-        <p>All website costs including hosting and maintenance are 100% tax deductible as a business expense. Your site pays for itself by bringing in new revenue while reducing your tax liability.</p>
-      </div>
-
-    </div>
-
-    <div class="section-cta fade-up">
-      <p class="cta-text">Let's build something you'll be proud to show off.</p>
-      <p class="signature">David Akpan</p>
-      <a href="#contact" class="btn-primary">Get Started &rarr;</a>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ ABOUT ═══ -->
-<section id="about">
-  <div class="container about-layout">
-    <div class="about-img-col fade-left">
-      <!-- REPLACE src with your actual photo -->
-      <div class="about-photo-wrap">
-        <img src="images/about.jpeg" alt="David Akpan" class="about-photo" id="aboutPhoto"/>
-        <div class="about-photo-placeholder" id="photoPlaceholder">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          <p>Add Your Photo</p>
-          <span>Replace src="YOUR_PHOTO_HERE.jpg"</span>
-        </div>
-      </div>
-    </div>
-    <div class="about-copy fade-right">
-      <p class="section-tag">About Me</p>
-      <h2 class="section-title-left">
-        I'm <span class="blue">David Akpan</span> — A Developer Who <span class="orange">Delivers</span>
-      </h2>
-      <p class="about-body">I'm a full-stack developer and digital architect based in Uyo, Akwa Ibom. With 5+ years of experience, I've helped startups, small businesses, and established brands build powerful digital experiences that don't just look good — they perform.</p>
-      <p class="about-body">I handle everything from design to launch to ongoing support so you can stay focused on what you do best — running your business. My process is simple, my communication is clear, and my results speak for themselves.</p>
-      <div class="about-stats">
-        <div class="astat"><span class="astat-n">50+</span><span class="astat-l">Projects Shipped</span></div>
-        <div class="astat"><span class="astat-n">30+</span><span class="astat-l">Happy Clients</span></div>
-        <div class="astat"><span class="astat-n">5+</span><span class="astat-l">Years Experience</span></div>
-      </div>
-      <a href="#contact" class="btn-primary">Work With Me &rarr;</a>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ PORTFOLIO ═══ -->
-<section id="portfolio">
-  <div class="container">
-    <p class="section-tag text-center fade-up">My Work</p>
-    <h2 class="section-title fade-up">Recent <span class="blue">Projects</span></h2>
-    <p class="section-sub fade-up">Real websites built for real businesses. Every project is custom, clean, and built to perform.</p>
-
-    <div class="portfolio-grid fade-up">
-
-      <div class="pj-card">
-        <div class="pj-img">
-          <img src="images/Screenshot 2026-03-23 202357.png" alt="EasyDump"/>
-          <div class="pj-overlay">
-            <a href="https://www.easydump.org" target="_blank" class="pj-btn">Visit Site &rarr;</a>
-          </div>
-        </div>
-        <div class="pj-body">
-          <span class="pj-tag">Web Platform</span>
-          <h3>EasyDump</h3>
-          <p>Waste management & logistics platform with real-time scheduling and tracking.</p>
-          <a href="https://www.easydump.org" target="_blank" class="pj-link">easydump.org &rarr;</a>
-        </div>
-      </div>
-
-      <div class="pj-card">
-        <div class="pj-img">
-          <img src="images/2.png" alt="QRCraft"/>
-          <div class="pj-overlay">
-            <a href="https://www.qrcraft.site" target="_blank" class="pj-btn">Visit Site &rarr;</a>
-          </div>
-        </div>
-        <div class="pj-body">
-          <span class="pj-tag">SaaS Tool</span>
-          <h3>QRCraft</h3>
-          <p>Intelligent QR code generation SaaS for marketing, labelling, and tracking.</p>
-          <a href="https://www.qrcraft.site" target="_blank" class="pj-link">qrcraft.site &rarr;</a>
-        </div>
-      </div>
-
-      <div class="pj-card">
-        <div class="pj-img">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=85" alt="Analytics"/>
-          <div class="pj-overlay">
-            <span class="pj-btn">Coming Soon</span>
-          </div>
-        </div>
-        <div class="pj-body">
-          <span class="pj-tag">Dashboard</span>
-          <h3>Brand Analytics Hub</h3>
-          <p>Real-time analytics dashboard aggregating SEO, social, and ad performance.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ═══ TESTIMONIALS ═══ -->
-<section id="testimonials">
-  <div class="container">
-    <p class="section-tag text-center fade-up">Client Reviews</p>
-    <h2 class="section-title fade-up">What <span class="blue">Clients</span> Say</h2>
-    <p class="section-sub fade-up">Real feedback from real people who trusted me with their business.</p>
-
-    <div class="testi-grid fade-up">
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"David rebuilt our logistics platform from the ground up. Load times dropped 70% and bookings jumped 3× in the first month. He thinks like a business owner."</p>
-        <div class="testi-author">
-          <div class="testi-av" style="background:#1d4ed8">CO</div>
-          <div><strong>Chidera Okonkwo</strong><span>CEO, Verdant Logistics</span></div>
-        </div>
-      </div>
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"He built our store with SEO engineered from day one. We went from zero to page 1 on Google in 3 months. The best investment we made this year."</p>
-        <div class="testi-author">
-          <div class="testi-av" style="background:#065f46">AB</div>
-          <div><strong>Amaka Blessing</strong><span>Founder, StyleHive Africa</span></div>
-        </div>
-      </div>
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"David built our fintech API with security as priority. Months after launch — zero critical incidents. The cleanest codebase I've ever worked with."</p>
-        <div class="testi-author">
-          <div class="testi-av" style="background:#7c3aed">TE</div>
-          <div><strong>Tunde Emmanuel</strong><span>CTO, PaySwitch Nigeria</span></div>
-        </div>
-      </div>
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"Student enrollment increased 200% in 60 days. David's SEO-first architecture is the reason. A rare developer who thinks strategy first, code second."</p>
-        <div class="testi-author">
-          <div class="testi-av" style="background:#b91c1c">FO</div>
-          <div><strong>Funmilayo Ojo</strong><span>Director, EduPath Academy</span></div>
-        </div>
-      </div>
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"Production-ready MVP delivered in record time. Every feature worked on launch day. The best technical decision our startup made."</p>
-        <div class="testi-author">
-          <div class="testi-av" style="background:#0f766e">MU</div>
-          <div><strong>Michael Udoh</strong><span>Founder, TechBridge Uyo</span></div>
-        </div>
-      </div>
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"Finally a developer who actually communicates. Delivered on time, on budget, and went above and beyond. Will work with David again for sure."</p>
-        <div class="testi-author">
-          <div class="testi-av" style="background:#d97706">EO</div>
-          <div><strong>Emeka Obi</strong><span>CEO, SwiftPay Africa</span></div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="section-cta fade-up">
-      <p class="cta-text">Let's build something you'll be proud to show off.</p>
-      <p class="signature">David Akpan</p>
-      <a href="#contact" class="btn-primary">Get Started &rarr;</a>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ CONTACT ═══ -->
-<section id="contact">
-  <div class="container">
-    <p class="section-tag text-center fade-up">Get In Touch</p>
-    <h2 class="section-title fade-up">Ready to <span class="blue">Start</span> Your <span class="orange">Website?</span></h2>
-    <p class="section-sub fade-up">Send me a message and I'll get back to you within hours. No commitment required.</p>
-
-    <div class="contact-layout fade-up">
-      <div class="contact-info">
-        <div class="ci-item">
-          <div class="ci-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-          <div><p class="ci-l">Email</p><a href="mailto:davidakpan105@gmail.com" class="ci-v">davidakpan105@gmail.com</a></div>
-        </div>
-        <div class="ci-item">
-          <div class="ci-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.5 16h.42l.08.92z"/></svg></div>
-          <div><p class="ci-l">WhatsApp / Phone</p><a href="tel:+2349031538922" class="ci-v">09031538922</a></div>
-        </div>
-        <div class="ci-item">
-          <div class="ci-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div><p class="ci-l">Location</p><p class="ci-v">142 Nwhiba, Uyo, Akwa Ibom State</p></div>
-        </div>
-        <a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20want%20to%20start%20my%20website." target="_blank" class="btn-primary wa-btn">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
-          Message on WhatsApp
-        </a>
-      </div>
-      <form class="contact-form" id="ctForm" onsubmit="handleForm(event)">
-        <div class="form-row">
-          <div class="form-group"><label>Your Name</label><input type="text" id="cfN" placeholder="John Doe" required/></div>
-          <div class="form-group"><label>Email Address</label><input type="email" id="cfE" placeholder="john@example.com" required/></div>
-        </div>
-        <div class="form-group"><label>Subject</label><input type="text" id="cfS" placeholder="I need a website for my business" required/></div>
-        <div class="form-group"><label>Message</label><textarea id="cfM" rows="5" placeholder="Tell me about your project..." required></textarea></div>
-        <button type="submit" class="btn-primary fw">Send Message &rarr;</button>
-        <p class="form-note" id="formNote"></p>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ FOOTER ═══ -->
-<footer id="footer">
-  <div class="container footer-grid">
-    <div class="ft-brand">
-      <div class="ft-logo">DA</div>
-      <p>Websites that grow your business.</p>
-      <p class="ft-loc">📍 Uyo, Akwa Ibom State</p>
-    </div>
-    <div class="ft-col">
-      <h6>Quick Links</h6>
-      <ul>
-        <li><a href="#hero">Home</a></li>
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">DA</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
-    </div>
-    <div class="ft-col">
-      <h6>&nbsp;</h6>
-      <ul>
         <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="https://wa.me/2349031538922" target="_blank">WhatsApp</a></li>
       </ul>
+      <a href="#contact" class="btn-primary nav-cta">Start Your Website</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    <div class="ft-col">
-      <h6>Contact</h6>
-      <ul>
-        <li><a href="mailto:davidakpan105@gmail.com">davidakpan105@gmail.com</a></li>
-        <li><a href="tel:+2349031538922">09031538922</a></li>
-        <li>142 Nwhiba, Uyo, Akwa Ibom</li>
-      </ul>
-    </div>
-  </div>
-  <div class="ft-bar">
-    <div class="container ft-bar-inner">
-      <p>&copy; 2025 David Akpan. All rights reserved.</p>
-      <p>Built with precision in Uyo, Nigeria.</p>
-    </div>
-  </div>
-</footer>
+  </nav>
 
-<button id="btt" aria-label="Back to top">&#8593;</button>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">
+        Your Dream Website.<br />
+        Live in <span class="accent-blue">10</span> Days or Less.
+      </h1>
+      <p class="hero-sub">Professional, custom-coded websites built to gain visitors and turn them into paying customers.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Get Started &rarr;</a>
+        <a href="#portfolio" class="btn-outline">View My Portfolio</a>
+      </div>
+      <div class="hero-quote">
+        <div class="quote-bar"></div>
+        <p class="quote-text">"I handle the tech, you run your business. Let's build something you'll be proud to show off."</p>
+      </div>
+      <div class="hero-sig">&#8212; <span class="caveat accent-blue">David</span></div>
+    </div>
+  </section>
 
-<script src="script.js"></script>
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Everything You <span class="accent-blue">Need</span>, All in <span class="accent-orange">One Place</span></h2>
+      <p class="section-sub">From design to launch to ongoing support — we handle every aspect of your website so you can focus on running your business.</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <h3>Custom Website Design</h3>
+          <p>We design and launch your custom website from scratch, with unlimited revisions.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+          <h3>Domain &amp; Hosting</h3>
+          <p>We handle domain registration and fast, secure hosting all included.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+          <h3>Mobile-Optimized Design</h3>
+          <p>Your site will look great and work smoothly on all devices.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <h3>SEO &amp; Performance Optimization</h3>
+          <p>We optimize your site for search engines and speed to maximize your online visibility.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div>
+          <h3>Ongoing Support &amp; Maintenance</h3>
+          <p>We handle the tech stuff like backups, security, and performance so you don't have to.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Fully Done for You &amp; Hands Off</h3>
+          <p>You just tell us your vision and we handle everything else.</p>
+        </div>
+      </div>
+      <div class="section-cta">
+        <p class="cta-tagline accent-blue">Let's build something you'll be proud to show off.</p>
+        <p class="caveat accent-blue cta-sig">David Akpan</p>
+        <a href="#contact" class="btn-primary">Get Started &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why" id="why">
+    <div class="container">
+      <h2 class="section-title">Why Every Business Owner <span class="accent-blue">Needs</span> Their Own Website</h2>
+      <p class="section-sub">It's not just about having a website — it's about standing out, getting more clients, and building something that lasts.</p>
+      <div class="why-grid" id="whyGrid">
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <h3>Google Visibility</h3>
+          <p>Start showing up when people search for your services in your area. More eyes on your site means more customers discovering your business, calling you, and choosing you over competitors who don't show up online.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>More Customers</h3>
+          <p>New customers can find and contact you through your site — 24/7. Your website works around the clock to bring in leads, answer questions, and convert visitors into paying customers even while you sleep.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <h3>Professional First Impressions</h3>
+          <p>People judge your business in seconds. A custom website makes sure you look professional, trustworthy, and established. First impressions directly impact whether someone picks up the phone or scrolls past you.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6 6l.95-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg></div>
+          <h3>Easy Contact &amp; Inquiries</h3>
+          <p>No more lost messages in DMs or texts. Customers can reach you directly through your site with contact forms, booking systems, or direct calls. Every inquiry is captured, organized, and ready for you to close.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
+          <h3>Elevate Your Brand</h3>
+          <p>Your own domain, your own look, your own space — not shared with competitors. Build real brand equity that increases your business value and makes you stand out in a crowded market.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <h3>Real Investment</h3>
+          <p>All website costs including hosting and maintenance are 100% tax deductible as a business expense. Your site pays for itself by bringing in new revenue while reducing your tax liability.</p>
+        </div>
+        <div class="why-card extra hidden">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div>
+          <h3>Analytics &amp; Insights</h3>
+          <p>Know exactly where your visitors come from, what pages they love, and where they drop off. Real data to help you make smarter business decisions every day.</p>
+        </div>
+        <div class="why-card extra hidden">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Trust &amp; Credibility</h3>
+          <p>Customers do research before buying. A polished website signals legitimacy and makes you look established — even if you're just starting out.</p>
+        </div>
+        <div class="why-card extra hidden">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3>24/7 Availability</h3>
+          <p>Your website works for you around the clock — answering FAQs, showcasing your work, and capturing leads even when you're off the clock or asleep.</p>
+        </div>
+        <div class="why-card extra hidden">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <h3>Competitive Edge</h3>
+          <p>If your competitors have websites and you don't, you're already losing. A better-designed site means customers choose you over them — every single time.</p>
+        </div>
+        <div class="why-card extra hidden">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <h3>Customer Reviews</h3>
+          <p>Showcase your best testimonials and reviews right on your website. Social proof builds trust fast and turns hesitant visitors into confident buyers.</p>
+        </div>
+      </div>
+      <div class="why-toggle-wrap">
+        <button class="btn-outline" id="whyToggle">View More</button>
+      </div>
+      <div class="section-cta">
+        <p class="cta-tagline accent-blue">Let's build something you'll be proud to show off.</p>
+        <p class="caveat accent-blue cta-sig">David Akpan</p>
+        <a href="#contact" class="btn-primary">Get Started &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-header">
+        <h2 class="section-title">Meet <span class="accent-blue">David</span></h2>
+        <p class="about-tagline">Your trusted web developer bringing precision, innovation, and passion to every project</p>
+      </div>
+      <div class="about-inner">
+        <div class="about-img-col">
+          <div class="about-img-wrap">
+            <img src="images/about.jpeg" alt="David Akpan - Web Designer &amp; Developer" class="about-img" />
+          </div>
+          <div class="about-stats-bar">
+            <div class="about-stat">
+              <span class="stat-num accent-blue">4.0</span>
+              <span class="stat-label">GPA</span>
+            </div>
+            <div class="about-stat-div"></div>
+            <div class="about-stat">
+              <span class="stat-num accent-blue">#5</span>
+              <span class="stat-label">CS Rank</span>
+            </div>
+            <div class="about-stat-div"></div>
+            <div class="about-stat">
+              <span class="stat-num accent-blue">6-Fig</span>
+              <span class="stat-label">Startup</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>David is passionate about building websites that not only look incredible but also drive real results for your business. With a perfect blend of technical expertise and creative vision, he crafts digital experiences that your customers will love.</p>
+          <p>David has already accomplished what many developers dream of. Having earned a perfect <strong>4.0 GPA</strong> from the <strong>#5 ranked Computer Science program in the nation</strong> at The University of Illinois Urbana-Champaign — ranking above Harvard and Yale and alongside Stanford and MIT — and as the founder of a multi-six-figure tech startup that he built while still in college, David combines academic excellence with real-world expertise in web development, artificial intelligence, and user experience design.</p>
+          <p>David believes that every business deserves a website that truly represents their brand and drives results. His attention to detail, commitment to modern design, and passion for creating exceptional user experiences has earned him the trust of business owners who want nothing but the absolute best for their online presence.</p>
+
+          <div class="about-philosophy">
+            <div class="philosophy-bar"></div>
+            <div>
+              <h4>David's Philosophy</h4>
+              <p>"Every business owner who trusts me with their website deserves nothing less than perfection. It's not just about writing code — it's about understanding your vision, your customers, and creating a digital experience that drives real results for your business every single day."</p>
+            </div>
+          </div>
+
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Phone:</span>
+              <a href="tel:09031538922" class="detail-value">09031538922</a>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Email:</span>
+              <a href="mailto:davidakapn105@gmail.com" class="detail-value">davidakapn105@gmail.com</a>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Location:</span>
+              <span class="detail-value">Uyo, Akwa Ibom</span>
+            </div>
+          </div>
+
+          <div class="about-cta-row">
+            <p class="cta-tagline accent-blue">Let's build something you'll be proud to show off.</p>
+            <p class="caveat accent-blue cta-sig">David Akpan</p>
+            <a href="#contact" class="btn-primary">Get Started &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent-blue">Portfolio</span></h2>
+      <p class="section-sub">A selection of custom websites I've built for clients across various industries.</p>
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Card 1 — El Fuego featured -->
+        <div class="portfolio-card featured">
+          <div class="portfolio-img elfuego-bg">
+            <div class="portfolio-overlay">
+              <a href="https://elfuegotinley.jkellysites.com" target="_blank" rel="noopener noreferrer" class="btn-primary small">View Live Site &rarr;</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-info-top">
+              <div>
+                <h3>El Fuego</h3>
+                <span class="portfolio-tag">Food &amp; Hospitality</span>
+              </div>
+              <a href="https://elfuegotinley.jkellysites.com" target="_blank" rel="noopener noreferrer" class="portfolio-ext" aria-label="Visit site">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="portfolio-desc">Authentic Mexican Restaurant — A piece of Mexico in the heart of the community. Experience authentic flavors and vibrant atmosphere.</p>
+            <a href="https://elfuegotinley.jkellysites.com" target="_blank" rel="noopener noreferrer" class="portfolio-url">elfuegotinley.jkellysites.com</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="portfolio-card">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#0f2027,#2c5364)">
+            <div class="portfolio-overlay"><a href="https://apexrealty.io/" class="btn-primary small">View Site &rarr;</a></div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-info-top">
+              <div><h3>Apex Realty Group</h3><span class="portfolio-tag">Real Estate</span></div>
+            </div>
+            <p class="portfolio-desc">Modern real estate agency site with property listings, agent profiles, and lead capture forms.</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="portfolio-card">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#1a1a2e,#16213e)">
+            <div class="portfolio-overlay"><a href="https://elitefitnessclub.ng/" class="btn-primary small">View Site &rarr;</a></div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-info-top">
+              <div><h3>Elite Fitness Coach</h3><span class="portfolio-tag">Health &amp; Fitness</span></div>
+            </div>
+            <p class="portfolio-desc">High-converting fitness coach portfolio with booking integration and transformation showcase.</p>
+          </div>
+        </div>
+        <!-- Hidden -->
+        <div class="portfolio-card port-extra hidden">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#0b0c10,#1f2833)">
+            <div class="portfolio-overlay"><a href="#" class="btn-primary small">View Site &rarr;</a></div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-info-top">
+              <div><h3>Luxe Boutique Store</h3><span class="portfolio-tag">E-commerce</span></div>
+            </div>
+            <p class="portfolio-desc">Full e-commerce experience with product catalog, cart, and seamless mobile checkout flow.</p>
+          </div>
+        </div>
+        <div class="portfolio-card port-extra hidden">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#0d1117,#161b22)">
+            <div class="portfolio-overlay"><a href="#" class="btn-primary small">View Site &rarr;</a></div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-info-top">
+              <div><h3>Sterling Law Firm</h3><span class="portfolio-tag">Legal Services</span></div>
+            </div>
+            <p class="portfolio-desc">Professional law firm website with practice areas, attorney bios, and client intake forms.</p>
+          </div>
+        </div>
+        <div class="portfolio-card port-extra hidden">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#141414,#1c1c2e)">
+            <div class="portfolio-overlay"><a href="#" class="btn-primary small">View Site &rarr;</a></div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-info-top">
+              <div><h3>Glow Beauty Studio</h3><span class="portfolio-tag">Beauty &amp; Wellness</span></div>
+            </div>
+            <p class="portfolio-desc">Salon booking site with service menu, stylist profiles, and online appointment scheduling.</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-toggle-wrap">
+        <button class="btn-outline" id="portfolioToggle">View More Projects</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">What <span class="accent-blue">Clients</span> Are Saying</h2>
+      <p class="section-sub">Real results from real business owners who trusted me with their online presence.</p>
+      <div class="testi-viewport">
+        <div class="testi-track" id="testiTrack">
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">SM</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"David delivered exactly what he promised — and faster than I expected. My new website looks professional and I've already gotten 3 new clients from it in the first month. Absolutely worth every penny."</p>
+            <div class="testi-author">
+              <strong>Sarah M.</strong>
+              <span>Interior Designer, Chicago</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">MJ</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"I was skeptical at first, but the website he built for my barbershop is incredible. Customers keep complimenting it. Online bookings have gone up significantly since launch."</p>
+            <div class="testi-author">
+              <strong>Marcus J.</strong>
+              <span>Barbershop Owner, Atlanta</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">RL</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"Super professional, responsive, and the final product was better than I imagined. I love that he explained everything clearly and made the process totally stress-free."</p>
+            <div class="testi-author">
+              <strong>Rachel L.</strong>
+              <span>Life Coach, New York</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">TN</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"My restaurant site went from zero to fully live in under 2 weeks. The mobile version is flawless. Customers now find us on Google and call directly from the site. Game changer."</p>
+            <div class="testi-author">
+              <strong>Tony N.</strong>
+              <span>Restaurant Owner, Houston</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">KO</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"Worth every dollar. I went from no web presence to a sleek, modern site that actually converts. David is the real deal — knows his craft and delivers results."</p>
+            <div class="testi-author">
+              <strong>Kevin O.</strong>
+              <span>Plumbing Business, Dallas</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">AP</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"The attention to detail is unmatched. My site looks like something a huge agency built. David took my rough ideas and turned them into something stunning."</p>
+            <div class="testi-author">
+              <strong>Amanda P.</strong>
+              <span>Boutique Owner, Miami</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">JB</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"I had a terrible website before. David redesigned it completely and my leads doubled in 6 weeks. Professional, fast, and the communication was top notch throughout."</p>
+            <div class="testi-author">
+              <strong>James B.</strong>
+              <span>HVAC Contractor, Phoenix</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-avatar">LW</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <p class="testi-text">"Honestly the best investment I've made for my business this year. The site is fast, looks stunning, and my customers actually comment on how great it looks. Highly recommend."</p>
+            <div class="testi-author">
+              <strong>Lisa W.</strong>
+              <span>Bakery Owner, Denver</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-controls">
+        <button class="testi-btn" id="testiPrev" aria-label="Previous">&#8592;</button>
+        <div class="testi-dots" id="testiDots"></div>
+        <button class="testi-btn" id="testiNext" aria-label="Next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <h2 class="section-title">Ready to <span class="accent-blue">Start?</span></h2>
+        <p>Let's talk about your project. Fill out the form and I'll get back to you within 24 hours.</p>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Uyo, Akwa Ibom, Nigeria</span>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6 6l.95-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+            <a href="tel:09031538922">09031538922</a>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:davidakapn105@gmail.com">davidakapn105@gmail.com</a>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="whatsapp-icon"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            <a href="https://wa.me/2349031538922" target="_blank" rel="noopener noreferrer">WhatsApp Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <div class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="cname">Full Name</label>
+            <input type="text" id="cname" placeholder="John Doe" />
+          </div>
+          <div class="form-group">
+            <label for="cemail">Email Address</label>
+            <input type="email" id="cemail" placeholder="john@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="cphone">Phone Number</label>
+            <input type="tel" id="cphone" placeholder="+234 803 000 0000" />
+          </div>
+          <div class="form-group">
+            <label for="cmessage">Tell Me About Your Project</label>
+            <textarea id="cmessage" rows="5" placeholder="Briefly describe your business and what you need..."></textarea>
+          </div>
+          <button class="btn-primary full" id="submitBtn">Send Message &rarr;</button>
+          <div class="form-success hidden" id="formSuccess">Your message has been sent. I'll be in touch within 24 hours.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="footer-logo">DA</div>
+          <p class="footer-tagline">Websites that grow your business. Custom-coded, conversion-focused, and built to last.</p>
+          <div class="footer-social">
+            <a href="https://wa.me/2349031538922" target="_blank" rel="noopener noreferrer" class="social-pill green" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              WhatsApp
+            </a>
+            <a href="mailto:davidakapn105@gmail.com" class="social-pill blue" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-h">Quick Links</h4>
+          <ul class="footer-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-h">Services</h4>
+          <ul class="footer-list">
+            <li><a href="#services">Custom Website Design</a></li>
+            <li><a href="#services">Domain &amp; Hosting</a></li>
+            <li><a href="#services">Mobile Optimization</a></li>
+            <li><a href="#services">SEO &amp; Performance</a></li>
+            <li><a href="#services">Ongoing Maintenance</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-h">Contact</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Uyo, Akwa Ibom, Nigeria</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6 6l.95-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+              <a href="tel:09031538922">09031538922</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:davidakapn105@gmail.com">davidakapn105@gmail.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;color:#25d366;flex-shrink:0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              <a href="https://wa.me/2349031538922" target="_blank" rel="noopener noreferrer">WhatsApp Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 David Akpan. All rights reserved.</p>
+        <p class="footer-bottom-right">Websites that grow your business.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
