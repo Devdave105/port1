@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — David Akpan</title>
+  <meta name="description" content="Explore the portfolio of David Akpan — web developer and digital strategist based in Uyo, Nigeria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-mark">DA</span>
+        <span class="logo-text">David Akpan</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+        <li><a href="index.html#services" class="nav-link">Services</a></li>
+        <li><a href="index.html#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="Booking.html" class="nav-link">Contact</a></li>
+        <li><a href="Booking.html" class="nav-cta">Start a Project</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content" data-aos="fade-up">
+        <div class="section-tag">Portfolio</div>
+        <h1>Projects That Drive Results</h1>
+        <p>A curated selection of websites and applications built for businesses that are serious about their online presence.</p>
+      </div>
+    </div>
+    <div class="page-hero-bg"></div>
+  </section>
+
+  <!-- FILTER -->
+  <section class="projects-page">
+    <div class="container">
+      <div class="project-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="web">Web Apps</button>
+        <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+        <button class="filter-btn" data-filter="saas">SaaS</button>
+        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+      </div>
+
+      <div class="projects-full-grid">
+
+        <div class="project-full-card" data-category="web" data-aos="fade-up">
+          <div class="pfc-img">
+            <img src="images/easy.png" alt="EasyDump" />
+            <div class="pfc-overlay">
+              <a href="https://www.easydump.org" target="_blank" rel="noopener" class="project-visit">Visit Live Site</a>
+            </div>
+          </div>
+          <div class="pfc-info">
+            <div class="pfc-meta">
+              <span class="project-type">Web Application</span>
+              <span class="pfc-year">2024</span>
+            </div>
+            <h3>EasyDump</h3>
+            <p>A full-featured waste management platform connecting users to disposal services. Built with a focus on speed, simplicity, and real-world utility. Handles service requests, user accounts, and payment processing.</p>
+            <div class="pfc-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+            </div>
+            <a href="https://www.easydump.org" target="_blank" rel="noopener" class="project-link">
+              www.easydump.org
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-full-card" data-category="saas" data-aos="fade-up" data-aos-delay="100">
+          <div class="pfc-img">
+            <img src="images/qr.png" alt="QRCraft" />
+            <div class="pfc-overlay">
+              <a href="https://www.qrcraft.site" target="_blank" rel="noopener" class="project-visit">Visit Live Site</a>
+            </div>
+          </div>
+          <div class="pfc-info">
+            <div class="pfc-meta">
+              <span class="project-type">SaaS Tool</span>
+              <span class="pfc-year">2024</span>
+            </div>
+            <h3>QRCraft</h3>
+            <p>A sleek and powerful QR code generation platform with custom branding options, color themes, and high-resolution download capabilities. Designed for businesses and marketers who need professional QR solutions.</p>
+            <div class="pfc-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>API Integration</span>
+            </div>
+            <a href="https://www.qrcraft.site" target="_blank" rel="noopener" class="project-link">
+              www.qrcraft.site
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-full-card" data-category="ecommerce" data-aos="fade-up">
+          <div class="pfc-img">
+            <img src="https://i.pinimg.com/1200x/14/b4/42/14b442f115df227358033de7fb980d83.jpg" alt="E-Commerce" />
+            <div class="pfc-overlay">
+              <a href="Booking.html" class="project-visit">Request Similar</a>
+            </div>
+          </div>
+          <div class="pfc-info">
+            <div class="pfc-meta">
+              <span class="project-type">E-Commerce</span>
+              <span class="pfc-year">2023</span>
+            </div>
+            <h3>Merchant Hub</h3>
+            <p>A fully custom e-commerce storefront with seamless payment gateway integration, inventory management system, and a clean admin dashboard for the business owner.</p>
+            <div class="pfc-tags">
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Paystack</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="Booking.html" class="project-link">Request Similar Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+          </div>
+        </div>
+
+        <div class="project-full-card" data-category="portfolio" data-aos="fade-up" data-aos-delay="100">
+          <div class="pfc-img">
+            <img src="https://i.pinimg.com/736x/87/c4/e7/87c4e706cfe471fe1eb6ab583726d06a.jpg" alt="Portfolio" />
+            <div class="pfc-overlay">
+              <a href="Booking.html" class="project-visit">Request Similar</a>
+            </div>
+          </div>
+          <div class="pfc-info">
+            <div class="pfc-meta">
+              <span class="project-type">Portfolio</span>
+              <span class="pfc-year">2023</span>
+            </div>
+            <h3>Creative Director Portfolio</h3>
+            <p>A visually stunning personal portfolio for a senior creative director. Features smooth scroll animations, case study breakdowns, and an integrated contact workflow.</p>
+            <div class="pfc-tags">
+              <span>HTML/CSS</span>
+              <span>GSAP</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="booking.html" class="project-link">Request Similar Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+          </div>
+        </div>
+
+        <div class="project-full-card" data-category="saas" data-aos="fade-up">
+          <div class="pfc-img">
+            <img src="https://i.pinimg.com/736x/9c/aa/80/9caa8020a0238fd8ed5877401d2ff0ea.jpg" alt="Analytics" />
+            <div class="pfc-overlay">
+              <a href="Booking.html" class="project-visit">Request Similar</a>
+            </div>
+          </div>
+          <div class="pfc-info">
+            <div class="pfc-meta">
+              <span class="project-type">SaaS / Dashboard</span>
+              <span class="pfc-year">2024</span>
+            </div>
+            <h3>Analytics Dashboard</h3>
+            <p>A data-rich analytics dashboard for a B2B SaaS company. Features clean data visualizations, real-time metrics, user segmentation, and CSV export functionality.</p>
+            <div class="pfc-tags">
+              <span>React</span>
+              <span>Chart.js</span>
+              <span>REST API</span>
+              <span>Node.js</span>
+            </div>
+            <a href="Booking.html" class="project-link">Request Similar Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+          </div>
+        </div>
+
+        <div class="project-full-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+          <div class="pfc-img">
+            <img src="https://i.pinimg.com/736x/3b/1c/d4/3b1cd49f9b93d3b663e228a8228ff8c3.jpg" alt="Agency" />
+            <div class="pfc-overlay">
+              <a href="Booking.html" class="project-visit">Request Similar</a>
+            </div>
+          </div>
+          <div class="pfc-info">
+            <div class="pfc-meta">
+              <span class="project-type">Agency Website</span>
+              <span class="pfc-year">2023</span>
+            </div>
+            <h3>Digital Agency Landing Page</h3>
+            <p>A conversion-focused landing page for a digital marketing agency. Bold visual language, social proof, testimonials, and a clearly structured CTA funnel that drives inquiries.</p>
+            <div class="pfc-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>AOS Animations</span>
+            </div>
+            <a href="Booking.html" class="project-link">Request Similar Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="container">
+      <div class="cta-band-content" data-aos="fade-up">
+        <h2>Have a project in mind?</h2>
+        <p>Let's discuss how I can help bring your vision to life.</p>
+        <a href="Booking.html" class="btn-primary btn-lg">Start Your Project</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-mark">DA</span>
+            <span class="logo-text">David Akpan</span>
+          </a>
+          <p>Building high-performance digital experiences that convert visitors into clients.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="Booking.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <a href="mailto:Davidakpan105@gmail.com">Davidakpan105@gmail.com</a>
+          <a href="tel:09031538922">09031538922</a>
+          <a href="#">Uyo, Nigeria</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 David Akpan. All rights reserved.</p>
+        <p>Designed and built with precision.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2349031538922?text=Hi%20David%2C%20I%20would%20like%20to%20discuss%20a%20project." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    <span class="whatsapp-tooltip">Chat with me</span>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
