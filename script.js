@@ -198,9 +198,9 @@
      ============================================================ */
   var DEFAULT_REVIEWS = [
     { name:'Emeka Okafor',  role:'CEO, Okafor Ventures',   rating:5, text:'David delivered a stunning business website that exceeded every expectation. Our online enquiries literally doubled within the first month of going live.' },
-    { name:'Amara Nwosu',   role:'Founder, StyleByAmara',  rating:5, text:'Working with David was seamless from start to finish. He understood exactly what our brand needed — professional, fast, and the quality is outstanding.' },
-    { name:'Chukwudi Eze',  role:'Director, EzeLogistics', rating:5, text:'Our website has completely transformed how clients perceive our business. Loads fast, looks world-class, and converts visitors. Absolutely worth every naira.' },
-    { name:'Ngozi Adeyemi', role:'Brand Consultant',       rating:5, text:'David stands far above other developers I have worked with. He thinks about user experience and business results, not just aesthetics.' },
+    { name:'Ekemini Etuk',   role:'Founder, StyleByAmara',  rating:5, text:'Working with David was seamless from start to finish. He understood exactly what our brand needed — professional, fast, and the quality is outstanding.' },
+    { name:'Ime Ubong',  role:'Director, EzeLogistics', rating:5, text:'Our website has completely transformed how clients perceive our business. Loads fast, looks world-class, and converts visitors. Absolutely worth every naira.' },
+    { name:'Ruth Thomas', role:'Brand Consultant',       rating:5, text:'David stands far above other developers I have worked with. He thinks about user experience and business results, not just aesthetics.' },
     { name:'Tunde Bakare',  role:'MD, Bakare Properties',  rating:5, text:'Incredibly impressed with the final product. Clean, modern, works perfectly across all devices, and delivered ahead of schedule. Highly recommended.' }
   ];
 
